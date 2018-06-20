@@ -1,0 +1,33 @@
+html, body{
+    margin: 0;
+}
+
+.elem_square1{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, .5);
+    position: absolute;
+    z-index: 3;
+}
+
+.elem_square2{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 255, 0, .5);
+    left: 25px;
+    position: absolute;
+    top: 25px;
+    z-index: 2;
+
+}
+
+.elem_square3{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 255, .5);
+    position: absolute; 
+    left: 50px;
+    top: 50px;
+    z-index: 1;
+
+}
